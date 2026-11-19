@@ -10,10 +10,31 @@
       <a-asset-item
           id="direwolf"
           src="assets/direwolf.obj">
-        </a-asset-item>
+      </a-asset-item>
+
+      <a-asset-item
+          id="dragon"
+          src="assets/dragon.obj">
+      </a-asset-item>
       </a-assets>
 
       <a-sky src="#mountains"></a-sky>
+
+      <a-obj-model
+        src="#dragon"
+        position="-2 1 -6"
+        rotation="0 0 0"
+        scale="1 1 1"
+        material="color: red">
+      </a-obj-model>
+
+      <a-obj-model
+        src="#direwolf"
+        position="2 1 -6"
+        rotation="0 0 0"
+        scale="1 1 1"
+        material="color: gray">
+      </a-obj-model>
 
     </a-scene>
   </body>
