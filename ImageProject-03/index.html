@@ -16,6 +16,12 @@
           id="dragon"
           src="assets/dragon.obj">
       </a-asset-item>
+
+      <img id="book1" src="assets/book1.jpeg">
+      <img id="book2" src="assets/book2.jpeg">
+      <img id="book3" src="assets/book3.jpg">
+      <img id="book4" src="assets/book4.jpeg">
+      <img id="book5" src="assets/book5.jpg">
       </a-assets>
 
       <a-sky src="#mountains"></a-sky>
@@ -30,11 +36,51 @@
 
       <a-obj-model
         src="#direwolf"
-        position="2 1 -6"
+        position="8 0.5 4"
         rotation="0 0 0"
-        scale="1 1 1"
+        scale="0.03 0.03 0.03"
         material="color: gray">
       </a-obj-model>
+
+      <a-entity position="5.5 0.9 1.5">
+        <a-box width="1.2" height="1.8" depth="0.2"
+         color="#4a2922"></a-box>
+        <a-plane src="#book1"
+           width="1.2" height="1.8"
+           position="0 0 0.11"></a-plane>
+      </a-entity>
+
+      <a-entity position="4 0.9 0">
+        <a-box width="1.2" height="1.8" depth="0.2"
+         color="#4a2922"></a-box>
+          <a-plane src="#book2"
+           width="1.2" height="1.8"
+           position="0 0 0.11"></a-plane>
+      </a-entity>
+
+      <a-entity position="2.5 0.9 -1.5">
+        <a-box width="1.2" height="1.8" depth="0.2"
+         color="#4a2922"></a-box>
+        <a-plane src="#book3"
+           width="1.2" height="1.8"
+           position="0 0 0.11"></a-plane>
+      </a-entity>
+
+      <a-entity position="1 0.9 -3">
+        <a-box width="1.2" height="1.8" depth="0.2"
+         color="#4a2922"></a-box>
+        <a-plane src="#book4"
+           width="1.2" height="1.8"
+           position="0 0 0.11"></a-plane>
+      </a-entity>
+
+      <a-entity position="-0.5 0.9 -4.5">
+        <a-box width="1.2" height="1.8" depth="0.2"
+         color="#4a2922"></a-box>
+        <a-plane src="#book5"
+           width="1.2" height="1.8"
+           position="0 0 0.11"></a-plane>
+      </a-entity>
 
     </a-scene>
   </body>
